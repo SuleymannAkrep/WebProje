@@ -1,0 +1,76 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Navbar Özelleştirme */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Sayfa Geçiş Efektleri */
+main {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Özgeçmiş Sayfası (Semantic Tag Stilleri) */
+section {
+    margin-bottom: 2rem;
+}
+
+h2.border-bottom {
+    color: #0d6efd; /* Bootstrap Primary Mavisi */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+article {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border-left: 5px solid #0d6efd;
+}
+
+/* API ve Kart Stilleri */
+.card {
+    transition: transform 0.3s hover;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5-px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Responsive Düzenlemeler */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Form Kontrol Stilleri (İletişim Sayfası İçin) */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
