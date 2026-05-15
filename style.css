@@ -1,4 +1,24 @@
-/* Genel Ayarlar */
+/* Sayfanın genel arka planı */
+body {
+    background-color: #f0f2f5; /* Hafif grimsi, modern bir renk */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+
+.navbar-dark.bg-dark {
+    background-color: #1a237e !important; /* Lacivert */
+    border-bottom: 3px solid #ffca28; /* Altına sarı bir çizgi (Hatay renklerine yakın) */
+}
+
+/* Kartların veya ana içeriğin arka planı */
+main.container {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 20px;
+}/* Genel Ayarlar */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
